@@ -1,0 +1,77 @@
+$(document).ready(function () {
+  $("#table").hide();
+  $("#button2").hide();
+  $("#button3").hide();
+  $("#button4").hide();
+  $("#button5").hide();
+  $("#button1").click(function () {
+    $("#table").show();
+    $("#button1").hide();
+    $("#button2").show();
+    $("#button3").show();
+    $("#button4").show();
+    $("#button5").show();
+  });
+  $("#button2").click(function () {
+    $("#table").hide();
+    $("#button2").hide();
+    $("#button3").hide();
+    $("#button4").hide();
+    $("#button5").hide();
+    $("#button1").show();
+  });
+  $("#button3").click(function () {
+    $("#data1").css("backgroundColor", "MediumSeaGreen");
+    $("#data5").css("backgroundColor", "MediumSeaGreen");
+    $("#data9").css("backgroundColor", "MediumSeaGreen");
+    $("#data13").css("backgroundColor", "MediumSeaGreen");
+    $("#data2").css("backgroundColor", "Tomato");
+    $("#data6").css("backgroundColor", "Tomato");
+    $("#data14").css("backgroundColor", "Tomato");
+    $("#data10").css("backgroundColor", "Tomato");
+    $("#data3").css("backgroundColor", "DodgerBlue");
+    $("#data7").css("backgroundColor", "DodgerBlue");
+    $("#data11").css("backgroundColor", "DodgerBlue");
+    $("#data15").css("backgroundColor", "DodgerBlue");
+    $("#data4").css("backgroundColor", "Orange");
+    $("#data8").css("backgroundColor", "Orange");
+    $("#data12").css("backgroundColor", "Orange");
+    $("#data16").css("backgroundColor", "Orange");
+  });
+  $("#button4").click(function () {
+    $("#data1").css("backgroundColor", "MediumSeaGreen");
+    $("#data2").css("backgroundColor", "MediumSeaGreen");
+    $("#data3").css("backgroundColor", "MediumSeaGreen");
+    $("#data4").css("backgroundColor", "MediumSeaGreen");
+    $("#data5").css("backgroundColor", "Gray");
+    $("#data6").css("backgroundColor", "Gray");
+    $("#data7").css("backgroundColor", "Gray");
+    $("#data8").css("backgroundColor", "Gray");
+    $("#data9").css("backgroundColor", "DodgerBlue");
+    $("#data10").css("backgroundColor", "DodgerBlue");
+    $("#data11").css("backgroundColor", "DodgerBlue");
+    $("#data12").css("backgroundColor", "DodgerBlue");
+    $("#data13").css("backgroundColor", "SlateBlue");
+    $("#data14").css("backgroundColor", "SlateBlue");
+    $("#data15").css("backgroundColor", "SlateBlue");
+    $("#data16").css("backgroundColor", "SlateBlue");
+  });
+  $("#button5").click(function () {
+    $("#data1").css("backgroundColor", "red");
+    $("#data2").css("backgroundColor", "red");
+    $("#data3").css("backgroundColor", "red");
+    $("#data4").css("backgroundColor", "red");
+    $("#data5").css("backgroundColor", "red");
+    $("#data6").css("backgroundColor", "red");
+    $("#data7").css("backgroundColor", "red");
+    $("#data8").css("backgroundColor", "red");
+    $("#data9").css("backgroundColor", "red");
+    $("#data10").css("backgroundColor", "red");
+    $("#data11").css("backgroundColor", "red");
+    $("#data12").css("backgroundColor", "red");
+    $("#data13").css("backgroundColor", "red");
+    $("#data14").css("backgroundColor", "red");
+    $("#data15").css("backgroundColor", "red");
+    $("#data16").css("backgroundColor", "red");
+  });
+});
